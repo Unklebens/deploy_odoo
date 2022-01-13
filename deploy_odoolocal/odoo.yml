@@ -1,0 +1,9 @@
+- name: deploy odoo using a role
+  hosts: localhost
+  become: true
+  vars:
+    edit_hostname: "no"
+    hostname: "odoo"
+  roles:
+    - docker_role
+    - odoo_role

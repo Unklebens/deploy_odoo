@@ -1,0 +1,4 @@
+- src: https://github.com/Unklebens/docker_role.git
+- src: unklebens.docker_role
+- src: unklebens.odoo_role
+- src: https://github.com/Unklebens/odoo_role.git
